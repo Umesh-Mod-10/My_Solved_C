@@ -26,7 +26,7 @@ void checkprime(int x) {
 //endregion
 
 //region Factorial
-/*
+
 long long int printfact(int x)
 {
     long long int fact=1;
@@ -36,11 +36,11 @@ long long int printfact(int x)
     }
     printf("%lld\n",fact);
 }
- */
+
 //endregion
 
 //region Functions:
-/*
+
 int printadd(int a,int b)
 {
     return a+b;
@@ -57,11 +57,11 @@ int printdivide(int a,int b)
 {
     return a/b;
 }
- */
+
 //endregion
 
 //region Fibonacci Series:
-/*
+
 void fib(int n)
 {
     int a=1,b=1,temp;
@@ -75,43 +75,43 @@ void fib(int n)
     }
     printf("\n");
 }
- */
-    //endregion
+ 
+//endregion
 
 //region Squaring:
-/*
+
 void printsq(int n)
 {
     printf("%d\n",n*n);
 }
- */
+
 //endregion
 
 //region Cubing:
-/*
+
 void printqb(int n)
 {
     printf("%d\n",n*n*n);
 }
- */
+
 //endregion
 
 //region Addition:
-/*
+
 int add(int a,int b)
 {
     int sum;
     sum=a+b;
     return sum;
 }
-*/
+
 //endregion
 
 
 int main() {
 
     // region Swapping Numbers:
-    /*
+    
     int a;
     int b;
     int temp;
@@ -122,23 +122,23 @@ int main() {
 
     printf("%d %d",a,b);
     return 0;
-    */
+    
     //endregion
 
 
     //region Printing a Christmas tree
-    /*
+    
     printf("\n");
     printf("  /\\\n");
     printf(" //\\\\\n");
     printf("///\\\\\\\n");
     printf("  ||\n  ||");
-    */
+    
     //endregion
 
 
     //region Find the largest number
-    /*
+    
     int a;
     int b;
     scanf("%d %d",&a,&b);
@@ -154,13 +154,12 @@ int main() {
     {
         printf("0");
     }
-    */
 
     //endregion
 
 
     //region Check whether the number is positive:
-    /*
+    
     int a;
     scanf("%d",&a);
     if(a>=0)
@@ -171,13 +170,12 @@ int main() {
     {
         printf("-1");
     }
-    */
 
     //endregion
 
 
     //region Check whether it is greater than n:
-    /*
+    
     int a;
     scanf("%d",&a);
     int n;
@@ -190,13 +188,12 @@ int main() {
     {
         printf("Nope");
     }
-    */
 
     //endregion
 
 
     //region Print numbers in ascending order and descending order:
-    /*
+    
     int a,b,c; //5,10,9
     lol:
     scanf("%d %d %d",&a,&b,&c);
@@ -237,13 +234,12 @@ int main() {
         }
     }
     goto lol;
-    */
 
     //endregion
 
 
     //region Print the total marks , average marks and print the grade:
-    /*
+    
     int s1,s2,s3;
     scanf("%d %d %d",&s1,&s2,&s3);
     int t=s1+s2+s3;
@@ -265,48 +261,45 @@ int main() {
     {
         printf("D");
     }
-    */
 
     //endregion
 
 
     //region Find Prime Numbers using Function:
-    /*
+    
     int a;
     scanf("%d",&a);
     primeNumber(a);
-    */
-
+    
     //endregion
 
 
     //region Print N numbers:
-    /*
+    
     int n;
     scanf("%d",&n);
     for(int i=0;i<=n;i++)
     {
         printf("%d ",i);
     }
-    */
 
     //endregion
 
 
     //region Printing in reverse order:
-    /*
+    
     int n;
     scanf("%d",&n);
     for(int i=n;i>=0;i--)
     {
         printf("%d ",i);
     }
-    */
+    
     //endregion
 
 
     //region Printing all the even numbers:
-    /*
+    
     int n;
     scanf("%d",&n);
     for(int i=0;i<=n;i++)
@@ -316,12 +309,12 @@ int main() {
             printf("%d ",i);
         }
     }
-     */
+    
     //endregion
 
 
     //region Printing all the odd numbers:
-    /*
+    
     int n;
     scanf("%d",&n);
     for(int i=0;i<=n;i++)
@@ -331,12 +324,12 @@ int main() {
             printf("%d ",i);
         }
     }
-     */
+    
     //endregion
 
 
     //region Reverse a number:
-    /*
+    
     int n,temp=0;
     scanf("%d",&n);
     while(n>0)
@@ -345,12 +338,12 @@ int main() {
         printf("%d",temp);
         n=n/10;
     }
-    */
+    
     //endregion
 
 
     //region Sum of all digits:
-    /*
+    
     int n,t=0,sum=0;
     scanf("%d",&n);
     while(n>0)
@@ -360,12 +353,12 @@ int main() {
         n=n/10;
     }
     printf("%d",sum);
-     */
+    
     //endregion
 
 
     //region Armstrong Number or not:
-    /*
+    
     int n,x=0,t,sum=0;
     scanf("%d",&n);
     x=n;
@@ -383,24 +376,24 @@ int main() {
     {
         printf("No");
     }
-    */
+    
     //endregion
 
 
     //region Table for n till m:
-    /*
+    
     int n,m;
     scanf("%d %d",&n,&m);
     for(int i=1;i<=m;i++)
     {
         printf("%d ",i*n);
     }
-    */
+    
     //endregion
 
 
     //region * ascending order:
-    /*
+    
     int n;
     scanf("%d",&n);
     for(int i=1;i<=n;i++)
@@ -410,12 +403,12 @@ int main() {
         }
         printf("\n");
     }
-    */
+    
     //endregion
 
 
     //region * descending order:
-    /*
+    
     int n;
     scanf("%d",&n);
     for(int i=n;i>=1;i--)
@@ -425,12 +418,12 @@ int main() {
         }
         printf("\n");
     }
-    */
+    
     //endregion
 
 
     //region * right top descending order:
-    /*
+    
     int n;
     scanf("%d",&n);
     for(int i=1;i<=n;++i)
@@ -445,12 +438,12 @@ int main() {
         }
         printf("\n");
     }
-    */
+    
     //endregion
 
 
     //region * bottom descending order:
-    /*
+    
     int n;
     scanf("%d",&n);
     for(int i=1;i<=n;i++)
@@ -465,12 +458,12 @@ int main() {
         }
         printf("\n");
     }
-    */
+    
     //endregion
 
 
     //region * Triangle:
-    /*
+    
     int i,j,k,n;
     scanf("%d",&n);
     for(i=0;i<=n;i++)
@@ -489,21 +482,21 @@ int main() {
         }
         printf("\n");
     }
-     */
+    
     //endregion
 
 
     //region Factorial Of a number:
-    /*
+    
     int n;
     scanf("%d",&n);
     printfact(n);
-    */
+    
     //endregion
 
 
     //region Print the Prime Number from 2 to n:
-    /*
+    
     int a,b,i,j;
     scanf("%d %d",&a,&b);
     int flag;
@@ -522,12 +515,12 @@ int main() {
             printf("%d ",i);
         }
     }
-     */
+    
     //endregion
 
 
     //region Matrix addition:
-    /*
+    
     int r,c;
     printf("Row and Column: ");
     scanf("%d %d",&r,&c);
@@ -560,12 +553,12 @@ int main() {
         }
         printf("\n");
     }
-    */
+    
     //endregion
 
 
     //region Matrix transpose:
-    /*
+    
     int r,c;
     printf("Row and Column: ");
     scanf("%d %d",&r,&c);
@@ -590,12 +583,12 @@ int main() {
         }
         printf("\n");
     }
-    */
+    
     //endregion
 
 
     //region Print Fibonacci series:
-    /*
+    
     int n,a=1,b=1,temp,i;
     scanf("%d",&n);
     printf("%d %d",a,b);
@@ -606,12 +599,12 @@ int main() {
         a=temp;
         printf(" %d",b);
     }
-     */
+    
     //endregion
 
 
     //region Print prime numbers between 2 numbers:
-    /*
+    
     int a, b, flag, i, j;
     printf("The Lower and Upper Limits are: ");
     scanf("%d %d", &a, &b);
@@ -631,13 +624,12 @@ int main() {
             printf("%d ", i);
         }
     }
-    */
 
     //endregion
 
 
     //region Print all characters and numbers with their ascii values:
-    /*
+    
     int i;
     for(i=65;i<=90;i++)
     {
@@ -653,12 +645,12 @@ int main() {
     {
         printf("%c ",i);
     }
-    */
+    
     //endregion
 
 
     //region Print the factorial sum: [1/2!+2/3!+....]
-    /*
+    
     int n,i,j;
     float sum=0,fact=1;
     scanf("%d",&n);
@@ -673,12 +665,12 @@ int main() {
 
     }
     printf("%f",sum);
-    */
+    
     //endregion
 
 
     //region Calculate the average for n numbers:
-    /*
+    
     int n,n1,sum=0;
     scanf("%d",&n);
     for(int i=0;i<n;i++)
@@ -687,23 +679,23 @@ int main() {
         sum=sum+n1;
     }
     printf("%f",(float)sum/n);
-    */
+    
     //endregion
 
 
     //region Print the ascii chart:
-    /*
+    
     int i;
     for( i=0;i<=255;i++)
     {
         printf("%d-%c\t",i,i);
     }
-    */
+    
     //endregion
 
 
     //region Print the corresponding numbers according to switch case:
-    /*
+    
     int n;
     scanf("%d",&n);
     switch (n) {
@@ -739,12 +731,12 @@ int main() {
             break;
         default:
             printf("Enter a valid option.");
-    */
+    
     //endregion
 
 
     //region Print the numbers reverse in switch case:
-    /*
+    
     int n;
     scanf("%d",&n);
     int rem;
@@ -789,12 +781,12 @@ int main() {
         }
         n=n/10;
     }
-    */
+    
     //endregion
 
 
     //region Symbols in a switch case:
-    /*
+    
     char n;
     scanf("%c",&n);
     int a,b;
@@ -819,45 +811,45 @@ int main() {
             printf("Use the correct operator");
             break;
     }
-     */
+    
     //endregion
 
 
     //region Performing Arithmetic Operations:
-    /*
+    
     int a,b;
     scanf("%d %d",&a,&b);
     printf("%d\n",printadd(a,b));
     printf("%d\n",printsubtraction(a,b));
     printf("%d\n",printmultiply(a,b));
     printf("%d\n",printdivide(a,b));
-    */
+    
     //endregion
 
 
     //region Calling Prime,Fibonacci and Factorial Functions:
-    /*
+    
     int n;
     scanf("%d",&n);
     checkprime(n);
     fib(n);
     printfact(n);
-     */
+    
     //endregion
 
 
     //region Calling functions to calculate the squares and cube:
-    /*
+    
     int n;
     scanf("%d",&n);
     printsq(n);
     printqb(n);
-    */
+    
     //endregion
 
 
     //region Accept an array and print:
-    /*
+    
     int n;
     scanf("%d",&n);
     int a[n];
@@ -869,12 +861,12 @@ int main() {
     {
         printf("%d ",a[i]);
     }
-    */
+    
     //endregion
 
 
     //region Reverse the array:
-    /*
+    
     int n;
     scanf("%d",&n);
     int a[n];
@@ -886,12 +878,12 @@ int main() {
     {
         printf("%d ",a[i]);
     }
-     */
+    
     //endregion
 
 
     //region Add all the values in an array:
-    /*
+    
     int n;
     scanf("%d",&n);
     int a[n],sum=0;
@@ -904,12 +896,12 @@ int main() {
         sum=sum+a[i];
     }
     printf("%d",sum);
-    */
+    
     //endregion
 
 
     //region Store the values of fibonacci series:
-    /*
+    
     int n,a=1,b=1,temp;
     scanf("%d",&n);
     int f[n];
@@ -923,12 +915,12 @@ int main() {
     {
         printf("%d ",f[i]);
     }
-    */
+    
     //endregion
 
 
     //region Max and Min value:
-    /*
+    
     INT_MIN;
     int n,max=0,min=INT_MIN - 1;
     scanf("%d",&n);
@@ -944,12 +936,12 @@ int main() {
         }
     }
     printf("%d %d",max,min);
-     */
+    
     //endregion
 
 
     //region Print the even and odd numbers:
-    /*
+    
     int n;
     scanf("%d",&n);
     int a[n];
@@ -971,20 +963,19 @@ int main() {
             printf("%d ",a[i]);
         }
     }
-    */
+    
     //endregion
 
 
     //region Daily Question:
-    /*  int a,b,c;
+            
+      int a,b,c;
       scanf("%d %d %d",&a,&b,&c);
       int p1=0,p2=0,p3=0;
       p1=a*b;
       p2=b*c;
       p3=c*a;
       int sum=0;
-
-    //  printf("%d %d %d",p1,p2,p3);
       if(p1==p2 && p2==p3)
       {
           printf("%d",p1);
@@ -1008,12 +999,12 @@ int main() {
               printf("%d",p2+p3);
           }
       }
-   */
+   
     //endregion
 
 
     //region Print the even digits and then the odd ones from a number N:
-    /*
+    
     int a;
     scanf("%d", &a);
     int t = a;
@@ -1033,12 +1024,12 @@ int main() {
         if((a/p%10)%2 == 1)
             printf("%d",a/p%10);
     }
-    */
+    
     //endregion
 
 
     //region Print the Negative and Positive Numbers:
-    /*
+    
     int n;
     scanf("%d",&n);
     int a[n];
@@ -1060,12 +1051,12 @@ int main() {
             printf("%d ",a[i]);
         }
     }
-     */
+    
     //endregion
 
 
     //region Build a Calculator:
-    /*
+    
     char x;
     scanf("%c",&x);
     int a,b;
@@ -1089,22 +1080,22 @@ int main() {
         default:
             printf("Enter a Valid Option");
     }
-    */
+    
     //endregion
 
 
     //region Function Calling Addition:
-    /*
+    
     int a,b;
     scanf("%d %d",&a,&b);
     int sum=add(a,b);
     printf("%d",sum);
-    */
-     //endregion
+    
+    //endregion
 
 
     //region Print the Average and Total of the array:
-    /*
+    
     int n,sum=0;
     scanf("%d",&n);
     int a[n];
@@ -1117,12 +1108,12 @@ int main() {
         sum=sum+a[i];
     }
     printf("%d %d",sum,sum/n);
-     */
+    
     //endregion
 
 
     //region Printing in Ascending order:
-    /*
+    
     int n,temp=0;
     scanf("%d",&n);
     int a[n];
@@ -1143,12 +1134,12 @@ int main() {
         }
         printf("%d ",a[i]);
     }
-    */
+    
     //endregion
 
 
     //region Printing in Descending order:
-    /*
+    
     int n,temp=0;
     scanf("%d",&n);
     int a[n];
@@ -1169,12 +1160,12 @@ int main() {
         }
         printf("%d ",a[i]);
     }
-    */
+    
     //endregion
 
 
     //region Subtraction of 2 Matrix:
-    /*
+    
     int c,r;
     scanf("%d %d",&c,&r);
     int a[c][r];
@@ -1205,7 +1196,7 @@ int main() {
         }
         printf("\n");
     }
-    */
+    
     //endregion
 
 
@@ -1213,17 +1204,17 @@ int main() {
     //endregion
 
         //region String Length(strlen and strnlen):
-        /*
+        
         char example[100];
         int n;
         scanf("%s",example);
         scanf("%d",&n);
         printf("%d %d",strlen(example), strnlen(example,n));
-        */
+        
         //endregion
 
         //region String Compare(strcmp and strncmp):
-        /*
+        
         char example1[100];
         char example2[100];
         scanf("%s\n%s",example1,example2);
@@ -1245,11 +1236,11 @@ int main() {
         {
             printf("String are Different\n");
         }
-         */
+        
         //endregion
 
         //region String Joining(strcat and strncat):
-        /*
+        
         char example1[100];
         char example2[100];
         int n;
@@ -1258,11 +1249,11 @@ int main() {
         printf("%s", strcat(example1,example2));
         strncat(example1,example2,3);
         printf("\n%s",example1);
-        */
+        
         //endregion
 
         //region String Copy(strcpy and strncpy):
-        /*
+        
         int n;
         scanf("%d",&n);
         char example1[100];
@@ -1272,11 +1263,11 @@ int main() {
         printf("%s",example1);
         strncpy(example1,example2,n);
         printf("%s",example1);
-         */
+        
         //endregion
 
     //region Copy a string without any function:
-    /*
+    
     char a[100];
     char b[100];
     int i;
@@ -1288,7 +1279,7 @@ int main() {
     b[i]='\0';
 
     printf("%s",b);
-    */
+    
     //endregion
 
 }
